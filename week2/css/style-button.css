@@ -1,0 +1,68 @@
+button.request-now {
+
+    background-color: rgb(16, 15, 15);
+    border: none;
+    padding: 10px 16px;
+    color: white;
+
+}
+
+button.signup-now {
+    background-color: rgb(0, 128, 0);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 9px 15px;
+
+}
+
+button.add-to-cart {
+    background-color: rgb(355, 355, 0);
+    border: none;
+    color: rgb(28, 27, 27);
+    border-radius: 10px;
+    padding: 2px 10px;
+
+}
+
+button.get-started {
+    background-color: rgb(85, 10, 198);
+    border: none;
+    color: white;
+    border-radius: 2px;
+    padding: 9px 20px;
+    margin: 2px;
+
+}
+
+button.download {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 9px 20px;
+    margin: 2px;
+
+}
+
+button.apply-on-company {
+
+    background-color: rgb(8, 38, 231);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 11px;
+    padding: 4px 20px;
+    margin: 6px;
+
+}
+
+button.save-1 {
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 36, 232);
+    border: 1px solid rgb(10, 54, 232);
+    border-radius: 12px;
+    padding: 4px 20px;
+    margin: 6px;
+
+}
