@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Playwrite+CU+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: 1px dotted rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: right;
+    line-height: 1.5;
+    background-image: url(/week3/image/moo.jpg);
+    background-size: cover;
+    background-position: top center;
+
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: justify;
+    line-height: 4.5;
+}

@@ -1,0 +1,18 @@
+div.London {
+    background-color: rgb(37, 79, 93);
+
+}
+
+div.Oslo {
+    background-color: rgb(2, 18, 14);
+
+}
+
+div.Rome {
+    background-color: rgb(93, 37, 37);
+
+}
+
+div.bigbox {
+    display: flex;
+}
