@@ -1,0 +1,24 @@
+.bigbox {
+
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.highlight {
+    color: orange;
+
+}
+
+.button {
+    background-color: rgb(255, 166, 0);
+    color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+    .bg-blue {
+        display: none;
+    }
+
+}
