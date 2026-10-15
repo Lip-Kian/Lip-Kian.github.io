@@ -78,6 +78,18 @@ button {
     display: block;
 }
 
+.team-button {
+    margin-top: 20px;
+}
+
+.team-button button {
+    background-color: #191A23;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+
 @media (max-width: 600px) {
     .menu {
         display: none;
@@ -88,7 +100,7 @@ button {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
     .banner {
         flex-direction: column-reverse;
     }
@@ -129,10 +141,14 @@ button {
         align-items: center;
     }
 
-    .word button {
-        padding: 5px 20px;
-        font-size: 24px;
-        font-weight: bold;
+    .team-button {
+        width: 100%;
+    }
+
+    .team-button button {
+        width: 100%;
+        padding: 18px;
+        font-size: 18px;
     }
 
     .services-text {
