@@ -5,9 +5,14 @@
 }
 
 .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     align-items: center;
-    padding: 20px 60px;
+    padding: 30px 60px;
+    z-index: 100;
 }
 
 .container {
@@ -16,10 +21,10 @@
 }
 
 .menu {
-    color: #A1A1A1;
     display: flex;
-    gap: 25px;
+    gap: 30px;
     margin-left: auto;
+    color: #A1A1A1;
     font-size: 14px;
 }
 
@@ -29,9 +34,12 @@
     gap: 15px;
 }
 
+.logo img {
+    width: 55px;
+}
+
 .logo div {
-    color: #FFFFFF;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -50,30 +58,110 @@
 
 .main {
     display: flex;
+    height: 100vh;
 }
 
 .left {
-    display: flex;
-    align-items: center;
-    gap: 25px;
     width: 40%;
     background: black;
-    padding: 70px 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 100px 70px;
 }
 
-.welcome,
-.title,
-.description {
-    color: #FFFFFF;
+.welcome {
+    color: #bfbfbf;
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-bottom: 35px;
+}
 
+.title {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+
+.description {
+    width: 340px;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 .right {
     width: 60%;
+    overflow: hidden;
 }
 
 .right img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.popular {
+    background: white;
+    text-align: center;
+    padding: 90px 0 120px;
+}
+
+.popular-title1 {
+    font-size: 42px;
+    font-style: italic;
+    margin-bottom: 18px;
+}
+
+.popular-title2 {
+    font-size: 68px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.popular-text {
+    width: 620px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+    margin-bottom: 70px;
+}
+
+.food {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 250px;
+}
+
+.card:nth-child(2) img {
+    width: 430px;
+}
+
+.card h3 {
+    margin-top: 18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card button {
+    margin-top: 15px;
+    padding: 8px 25px;
+    border: 1px solid #999;
+    background: white;
+    font-size: 11px;
+    letter-spacing: 1px;
 }
