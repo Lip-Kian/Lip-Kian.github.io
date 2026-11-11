@@ -183,5 +183,195 @@
     letter-spacing: 1.5px;
     z-index: 10;
 
+}
+
+.main-course {
+    display: flex;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.main-course-image {
+    width: 50%;
+    display: flex;
+}
+
+.main-course-image img {
+    width: 100%;
+    display: block;
+}
+
+.main-course-content {
+    width: 50%;
+    background: white;
+    padding: 40px;
+}
+
+.main-course-content h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    position: relative;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.food-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.dessert-banner {
+    position: relative;
+    width: 90%;
+    height: 220px;
+    margin: -1px auto 0;
+}
+
+.dessert-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.dessert-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dessert-text h2 {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1024px) {
+
+    .banner>img {
+        height: 450px;
+    }
+
+    .banner-text h1 {
+        font-size: 55px;
+    }
+
+    .recommend {
+        width: 95%;
+        gap: 20px;
+    }
+
+    .item img {
+        height: 300px;
+    }
+
+    .item div {
+        font-size: 11px;
+    }
+
+    .main-course {
+        flex-direction: column;
+    }
+
+    .main-course-image,
+    .main-course-content {
+        width: 100%;
+    }
+
+    .main-course-content {
+        padding: 30px;
+    }
+
+    .main-course-content h2 {
+        font-size: 38px;
+    }
+
+    .dessert-text h2 {
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+
+    .banner>img {
+        height: 300px;
+    }
+
+    .banner-text p {
+        font-size: 12px;
+    }
+
+    .banner-text h1 {
+        font-size: 32px;
+    }
+
+    .recommend {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .item img {
+        height: auto;
+    }
+
+    .main-course {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .main-course-image,
+    .main-course-content {
+        width: 100%;
+    }
+
+    .main-course-content {
+        padding: 20px;
+    }
+
+    .main-course-content h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .food-name {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 12px;
+    }
+
+    .menu-item p {
+        font-size: 12px;
+    }
+
+    .dessert-text h2 {
+        font-size: 32px;
+    }
 
 }

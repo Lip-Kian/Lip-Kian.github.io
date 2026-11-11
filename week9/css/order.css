@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 33.33%;
+    height: 40px;
+    text-align: center;
+    padding: 0;
+    background: #eee;
+    color: inherit;
+    font: inherit;
+}
+
+.value-button:hover {
+    cursor: pointer;
+}
+
+form .decrease {
+    margin-right: -4px;
+}
+
+form .increase {
+    margin-left: -4px;
+}
+
+input.quantity {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 33.33%;
+    height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.choose {
+    max-width: 1200px;
+    margin: auto;
+    padding: 90px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small-title {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.choose h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 22px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.choose-right button {
+    padding: 20px 50px;
+    background: white;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.choose-right button:hover {
+    background: black;
+    color: white;
+}
+
+@media screen and (max-width:1024px) {
+
+    .choose {
+        padding: 70px 30px;
+    }
+
+    .choose h2 {
+        font-size: 38px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+
+    .choose {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .choose h2 {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .choose-right {
+        width: 100%;
+    }
+
+    .choose-right button {
+        width: 100%;
+    }
+
+}
