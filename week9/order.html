@@ -14,7 +14,7 @@
 
     <div class="banner">
 
-        <img src="image/banner.png" alt="banner">
+        <img class="banner-image" src="image/banner.png" alt="banner">
 
         <div class="header">
 
@@ -157,12 +157,196 @@
 
     </section>
 
-    <form>
-        <button type="button" class="value-button decrease" aria-label="Decrease quantity">-</button>
-        <input type="number" class="quantity" value="1" min="1" />
-        <button type="button" class="value-button increase" aria-label="Increase quantity">+</button>
-    </form>
+    <div class="special-item">
 
+        <div class="special-image">
+            <img src="image/pork.png" alt="Twice Cooked Pork">
+        </div>
+
+        <div class="special-content">
+
+            <p class="category">HOUSE FAVOURITE</p>
+
+            <h2>TWICE COOKED PORK</h2>
+
+            <p class="description">
+                Nunc nec neque cras id dui curabitur
+                blandit mollis lacus.
+            </p>
+
+            <div class="button">
+
+                <form>
+                    <button type="button" class="value-button decrease">-</button>
+                    <input type="number" class="quantity" value="1" min="1">
+                    <button type="button" class="value-button increase">+</button>
+                </form>
+
+                <button class="cart1">ADD TO CART</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <section class="menu-section">
+
+        <p class="category">CHEF'S SIGNATURES</p>
+
+        <h2>FINE DINING FAVORITES</h2>
+
+        <div class="menu-cards">
+
+            <div class="menu-card">
+
+                <img src="image/salmon.png" alt="Ahi Salmon Nigiri">
+
+                <div class="menu-info">
+
+                    <p class="food-type">CHEF'S SPECIAL</p>
+
+                    <h3>AHI SALMON NIGIRI</h3>
+
+                    <p class="food-description">
+                        Fresh salmon served nigiri-style with a clean, delicate finish.
+                    </p>
+
+                    <p class="food-price">$28</p>
+
+                    <div class="bottons">
+
+                        <form>
+                            <button type="button" class="value-button decrease">-</button>
+                            <input type="number" class="quantity" value="1" min="1">
+                            <button type="button" class="value-button increase">+</button>
+                        </form>
+
+                        <button class="cart">ADD TO CART</button>
+
+                        <button class="view">VIEW CART</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="menu-card">
+
+                <img src="image/sushi.png" alt="Char Siu & Sushis">
+
+                <div class="menu-info">
+
+                    <p class="food-type">HOUSE FAVOURITE</p>
+
+                    <h3>CHAR SIU & SUSHIS</h3>
+
+                    <p class="food-description">
+                        Cantonese barbecue pork paired with an assortment of freshly prepared sushi.
+                    </p>
+
+                    <p class="food-price">$48</p>
+
+                    <div class="bottons">
+
+                        <form>
+                            <button type="button" class="value-button decrease">-</button>
+                            <input type="number" class="quantity" value="1" min="1">
+                            <button type="button" class="value-button increase">+</button>
+                        </form>
+
+                        <button class="cart">ADD TO CART</button>
+
+                        <button class="view">VIEW CART</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="menu-card">
+
+                <img src="image/rolls.png" alt="California Rolls">
+
+                <div class="menu-info">
+
+                    <p class="food-type">CHEF'S SPECIAL</p>
+
+                    <h3>CALIFORNIA ROLLS</h3>
+
+                    <p class="food-description">
+                        Fresh sushi rolls filled with crab, avocado, cucumber, and creamy mayonnaise.
+                    </p>
+
+                    <p class="food-price">$22</p>
+
+                    <div class="bottons">
+
+                        <form>
+                            <button type="button" class="value-button decrease">-</button>
+                            <input type="number" class="quantity" value="1" min="1">
+                            <button type="button" class="value-button increase">+</button>
+                        </form>
+
+                        <button class="cart">ADD TO CART</button>
+
+                        <button class="view">VIEW CART</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="checkout">
+
+        <p class="checkout-small">READY TO CHECKOUT?</p>
+
+        <h2>REVIEW YOUR CART</h2>
+
+        <p class="checkout-text">
+            You still can edit your product quantity in the cart.
+        </p>
+
+        <button class="checkout-btn">
+            VIEW CART AND CHECKOUT
+        </button>
+
+    </section>
+
+    <section class="footer">
+
+        <img src="image/footer.jpg" alt="Restaurant" class="footer-image">
+
+        <div class="overlay">
+
+            <div class="footer-content">
+
+                <div class="footer-logo">
+                    <img src="image/logo.png" alt="Logo">
+                    <h2>ROMALIYA</h2>
+                </div>
+
+                <p>
+                    From the first welcome to the last bite, every detail is designed to create
+                    a memorable dining experience for you and your loved ones.
+                </p>
+
+                <div class="social-media">
+                    <img src="image/social.png" alt="Social Media">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
     <script>
         document.querySelectorAll('form').forEach((form) => {
