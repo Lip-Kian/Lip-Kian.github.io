@@ -1,0 +1,73 @@
+/*main*/
+.main {
+    display: flex;
+}
+
+.left {
+    width: 80%;
+    display: flex;
+}
+
+.left img {
+    width: 100%;
+    height: auto;
+}
+
+.right {
+    width: 65%;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+    gap: 20px;
+}
+
+.title {
+    margin-bottom: 35px;
+}
+
+.title div {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 75px;
+}
+
+.small-title {
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 14px
+}
+
+.description {
+    width: 360px;
+    color: white;
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.offer {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+button {
+    width: 160px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/*special*/
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+
+}
